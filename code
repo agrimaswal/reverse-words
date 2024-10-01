@@ -1,0 +1,13 @@
+def reverse_words(sentence):
+
+    words=sentence.split()
+
+    reversed_words=words[::-1]
+
+    reversed_sentence=' '.join(reversed_words)
+
+    return reversed_sentence
+
+sentence=input("enter a sentence:")
+
+print("sentence in reverse order:",reverse_words(sentence))
